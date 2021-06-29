@@ -1,0 +1,22 @@
+.Navbar{
+    /* width: 100vw; */
+    padding: 1rem 2rem;
+    background-color: violet;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 2rem pink;
+    align-items: center;
+}
+.Navbar a {
+    text-decoration: none;
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: black;
+}
+.Navbar a:hover{
+    color: darkblue;
+}
+.activeClass{
+    border-bottom: .2rem solid snow;
+}

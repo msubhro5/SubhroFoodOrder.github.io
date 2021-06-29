@@ -1,0 +1,17 @@
+.menu_button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu_button button{
+    border-radius: 2rem;
+    margin: .2rem 2rem;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.menu_button button:hover{
+    background-color: silver;
+}
